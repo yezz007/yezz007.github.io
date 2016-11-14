@@ -1,4 +1,38 @@
-.the320{
-  margin: auto;
-  width: 320px;
+footer{
+  position: fixed;
+  bottom: 0;
+}
+.fitAja{
+  width: 100%;
+}
+
+@media screen and (min-width: 160px) {
+    .theMedium{
+    margin: auto;
+    width: 80px;
+  }
+}
+@media screen and (min-width: 240px) {
+    .theMedium{
+    margin: auto;
+    width: 160px;
+  }
+}
+@media screen and (min-width: 480px) {
+    .theMedium{
+    margin: auto;
+    width: 240px;
+  }
+}
+@media screen and (min-width: 720px) {
+    .theMedium{
+    margin: auto;
+    width: 480px;
+  }
+}
+@media screen and (min-width: 1280px) {
+    .theMedium{
+    margin: auto;
+    width: 640px;
+  }
 }
